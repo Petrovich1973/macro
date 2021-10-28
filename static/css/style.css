@@ -472,6 +472,9 @@ body {
 #detail > div {
     width: 33%;
 }
+#detail .pic {
+    background-position: center;
+}
 #detail .view360 {
     background-color: black;
 }
@@ -520,7 +523,7 @@ body {
     }
     #detail > div {
         width: 100vw;
-        height: 100vh;
+        height: 90vh;
     }
     #detail .name .title h1 {
         font-size: 620%;
