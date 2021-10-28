@@ -531,4 +531,12 @@ body {
     #detail .description {
         font-size: 240%;
     }
+    #detail .link-back a {
+        font-size: 240%;
+        font-style: italic;
+    }
+    #detail .copy-link {
+        font-size: 240%;
+        font-style: italic;
+    }
 }
