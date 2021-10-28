@@ -6,7 +6,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/threesixty.css">
     <link rel="stylesheet" href="static/css/style.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!--    <script src="static/js/jquery.threesixty.js"></script>-->
 </head>
 <body>
 <div id="root">
@@ -14,7 +19,7 @@
         <div class="pic photo" style="background-image: url('static/media/pic_001.jpg')">
         </div>
         <div class="view360">
-            view360
+            <div class="threesixty" data-path="assets/img/001/gem{index}.jpg" data-count="61"></div>
         </div>
         <div class="name">
             <div class="link-back">
@@ -37,8 +42,9 @@
     </div>
 </div>
 
-<script src="static/js/jquery-3.6.0.min.js"></script>
+<!--<script src="static/js/jquery-3.6.0.min.js"></script>-->
 <script src="static/js/jquery.zoom.min.js"></script>
+<script src="static/js/jquery.threesixty.js"></script>
 <script src="static/js/index.js"></script>
 </body>
 </html>
